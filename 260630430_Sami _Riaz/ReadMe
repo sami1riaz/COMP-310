@@ -1,0 +1,7 @@
+Please run Errors.txt after you run Reservations.txt to make sure the errors are being produced.
+
+Reservation Commands are case sensitive, i.e. they must be one of the following:
+init -> To initialize the tables and remove all current reservations
+status -> To check which tables have been reserved
+reserve <name> <section> <tableNum (optional)> -> To reserve a specific or random table
+exit -> to end program

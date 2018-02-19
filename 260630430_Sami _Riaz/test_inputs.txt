@@ -1,0 +1,35 @@
+init
+sherlock meets watson 221
+reserve nikhil A 106
+status
+reserve nishanth B 202
+reserve shashank A
+reserve barleen A 101
+status
+reserve nishchitha B 202
+reserve nishchitha B 213
+reserve nishchitha A 111
+reserve nishchitha A 208
+reserve nishchitha B 208
+reserve shashank B
+status
+reserve thomas B
+status
+reserve sherlock B
+reserve blah B
+reserve thom B
+reserve george B
+reserve gilbert B
+reserve gibbs B
+reserve greg B
+status
+init
+sherlock meets watson 221
+reserve nikhil A 106
+status
+reserve nishanth B 202
+reserve shashank A
+reserve barleen A 101
+status
+exit
+reserve abc A

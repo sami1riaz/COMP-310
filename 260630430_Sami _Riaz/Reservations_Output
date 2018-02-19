@@ -1,0 +1,100 @@
+>> Executing command: init
+
+ ------------Section A-------------
+Table 100: Available
+Table 101: Available
+Table 102: Available
+Table 103: Available
+Table 104: Available
+Table 105: Available
+Table 106: Available
+Table 107: Available
+Table 108: Available
+Table 109: Available
+
+ ------------Section B-------------
+Table 200: Available
+Table 201: Available
+Table 202: Available
+Table 203: Available
+Table 204: Available
+Table 205: Available
+Table 206: Available
+Table 207: Available
+Table 208: Available
+Table 209: Available
+
+Initialization Successful
+
+>> Executing command: reserve Sami A 100
+Table 100 A: Sami
+Reservation successful.
+
+>> Executing command: reserve Ali  A 101
+Table 101 A: Ali
+Reservation successful.
+
+>> Executing command: reserve Umer A 103
+Table 103 A: Umer
+Reservation successful.
+
+>> Executing command: reserve Gibran A 107
+Table 107 A: Gibran
+Reservation successful.
+
+>> Executing command: reserve Hasan A
+Reservation successful.
+Table 102 A: Hasan
+
+>> Executing command: reserve Arman A
+Reservation successful.
+Table 104 A: Arman
+
+>> Executing command: reserve Naruto B 200
+Table 200 B: Naruto
+Reservation successful.
+
+>> Executing command: reserve Sasuke B 209
+Table 209 B: Sasuke
+Reservation successful.
+
+>> Executing command: reserve Sakura B
+Reservation successful.
+Table 201 B: Sakura
+
+>> Executing command: reserve Shikamaru B 204
+Table 204 B: Shikamaru
+Reservation successful.
+
+>> Executing command: reserve Hinata B 206
+Table 206 B: Hinata
+Reservation successful.
+
+>> Executing command: status
+
+ ------------Section A-------------
+Table 100: Reserved Under Sami
+Table 101: Reserved Under Ali
+Table 102: Reserved Under Hasan
+Table 103: Reserved Under Umer
+Table 104: Reserved Under Arman
+Table 105: Available
+Table 106: Available
+Table 107: Reserved Under Gibran
+Table 108: Available
+Table 109: Available
+
+ ------------Section B-------------
+Table 200: Reserved Under Naruto
+Table 201: Reserved Under Sakura
+Table 202: Available
+Table 203: Available
+Table 204: Reserved Under Shikamaru
+Table 205: Available
+Table 206: Reserved Under Hinata
+Table 207: Available
+Table 208: Available
+Table 209: Reserved Under Sasuke
+
+>> Executing command: exit
+Bye!

@@ -1,0 +1,43 @@
+>> Executing command: reserve sami A 100
+Sorry! Table 100 A is already reserved.
+
+>> Executing command: reserve Jon 105
+Error. Please Choose Either Section A or Section B.
+
+>> Executing command: reserve Dany A 111
+Reservation failed: Table 111 does not exist in Section A.
+
+>> Executing command: reserve Tyrion B 230
+Reservation failed: Table 230 does not exist in Section B.
+
+>> Executing command: reserve
+Error! Please provide a Name for reservation.
+
+>> Executing command: status
+
+ ------------Section A-------------
+Table 100: Reserved Under Sami
+Table 101: Reserved Under Ali
+Table 102: Reserved Under Hasan
+Table 103: Reserved Under Umer
+Table 104: Reserved Under Arman
+Table 105: Available
+Table 106: Available
+Table 107: Reserved Under Gibran
+Table 108: Available
+Table 109: Available
+
+ ------------Section B-------------
+Table 200: Reserved Under Naruto
+Table 201: Reserved Under Sakura
+Table 202: Available
+Table 203: Available
+Table 204: Reserved Under Shikamaru
+Table 205: Available
+Table 206: Reserved Under Hinata
+Table 207: Available
+Table 208: Available
+Table 209: Reserved Under Sasuke
+
+>> Executing command: exit
+Bye!

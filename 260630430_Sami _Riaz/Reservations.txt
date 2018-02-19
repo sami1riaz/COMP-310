@@ -1,0 +1,14 @@
+init
+reserve Sami A 100
+reserve Ali  A 101
+reserve Umer A 103
+reserve Gibran A 107
+reserve Hasan A
+reserve Arman A
+reserve Naruto B 200
+reserve Sasuke B 209
+reserve Sakura B 
+reserve Shikamaru B 204
+reserve Hinata B 206
+status
+exit

@@ -1,0 +1,7 @@
+reserve sami A 100
+reserve Jon 105
+reserve Dany A 111
+reserve Tyrion B 230
+reserve
+status
+exit
