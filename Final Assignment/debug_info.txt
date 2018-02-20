@@ -1,0 +1,36 @@
+Find the corresponding video at : https://youtu.be/axtCuzWl4lE
+
+
+step 1 : Place your C file in a folder and give a name to that folder.
+
+step 2 : Open the folder in visual studio code. You shall find only your C file there and nothing else.
+
+step 3 : Press Command + shift + B (on a mac) or Ctrl + shift + B (on Ubuntu). This command is to run a 'build task'. 'Build task' is something that compiles the C program for you. If it does not find the configuration for it , its going to ask you whether to you want to configure it. Click on configure.
+
+step 4 :  From the drop down (select task runner) list choose 'others'.A new tasks.json file will be created where all the details of how to compile needs to entered. Copy paste the following JSON (javaScript Object Notation) in the tasks.json file.
+
+{
+    "version": "0.1.0",
+    "command": "gcc",
+    "isShellCommand": true,
+    "args": ["-g","main.c"],
+    "showOutput": "always"
+}
+
+It is very important that you specify the correct name of your C file in the 'args' list and the important flags like "-g" for debugging.
+
+step 5 : Save the tasks.json and click on your C file. Press Command + shift + B, this time it is going to compile the file for you and you shall find a.out file generated in the folder.
+
+step 6 : In the terminal window run your file by typing in ./a.out.
+
+step 7 : For debugging click in the debug section. You shall find an orange bubble on the configuration icon. Click on that and select (gdb/lldb). A new file called launch.json will be created. Remove the string  "enter program name, for example " to leave just "${workspaceRoot}/a.out" corresponding to "program". Save it.
+
+Step 8 : Setup breakpoint in your code and click on run in the debug screen. A new terminal shall open where you can enter your inputs . The program will run till the first breakpoint.
+
+Step 9 : Hover over variables to get their current value.
+
+Now you know how to debug.
+
+Supplementary 1 : You can indent all of your code by just right clicking and selecting "format document".
+
+Supplementary 2 : You can have a quick peek of the function you came across in main by right click on the function name and click on "Peek Definition".
